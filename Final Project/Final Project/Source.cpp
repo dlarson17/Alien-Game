@@ -1,7 +1,13 @@
 #include <iostream>
+#include <string>
+#include <vector>
+#include <ctime>
+#include "Dialogue.h"
 
-using namespace std;
-
-int main() {
-	cout << "Hello GitHub!\n";
+int main()
+{
+	Welcome w;
+	w.welcome();
+	
+	return 0;
 }
