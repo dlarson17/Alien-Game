@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89EAB0501A2E62D400E77808 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89EAB04F1A2E62D400E77808 /* main.cpp */; };
+		89EAB0581A2E665C00E77808 /* Area.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89EAB0571A2E665C00E77808 /* Area.cpp */; };
+		89EAB05B1A2E6BDE00E77808 /* Dialogue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89EAB05A1A2E6BDE00E77808 /* Dialogue.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89EAB04A1A2E62D400E77808 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89EAB04C1A2E62D400E77808 /* Sears */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sears; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EAB04F1A2E62D400E77808 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		89EAB0561A2E63AC00E77808 /* Area.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		89EAB0571A2E665C00E77808 /* Area.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Area.cpp; sourceTree = "<group>"; };
+		89EAB0591A2E6A2600E77808 /* Dialogue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dialogue.h; sourceTree = "<group>"; };
+		89EAB05A1A2E6BDE00E77808 /* Dialogue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dialogue.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89EAB0491A2E62D400E77808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89EAB0431A2E62D400E77808 = {
+			isa = PBXGroup;
+			children = (
+				89EAB04E1A2E62D400E77808 /* Sears */,
+				89EAB04D1A2E62D400E77808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89EAB04D1A2E62D400E77808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89EAB04C1A2E62D400E77808 /* Sears */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89EAB04E1A2E62D400E77808 /* Sears */ = {
+			isa = PBXGroup;
+			children = (
+				89EAB04F1A2E62D400E77808 /* main.cpp */,
+				89EAB0561A2E63AC00E77808 /* Area.h */,
+				89EAB0571A2E665C00E77808 /* Area.cpp */,
+				89EAB0591A2E6A2600E77808 /* Dialogue.h */,
+				89EAB05A1A2E6BDE00E77808 /* Dialogue.cpp */,
+			);
+			path = Sears;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89EAB04B1A2E62D400E77808 /* Sears */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EAB0531A2E62D400E77808 /* Build configuration list for PBXNativeTarget "Sears" */;
+			buildPhases = (
+				89EAB0481A2E62D400E77808 /* Sources */,
+				89EAB0491A2E62D400E77808 /* Frameworks */,
+				89EAB04A1A2E62D400E77808 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sears;
+			productName = Sears;
+			productReference = 89EAB04C1A2E62D400E77808 /* Sears */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89EAB0441A2E62D400E77808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Drew Sears";
+				TargetAttributes = {
+					89EAB04B1A2E62D400E77808 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 89EAB0471A2E62D400E77808 /* Build configuration list for PBXProject "Sears" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89EAB0431A2E62D400E77808;
+			productRefGroup = 89EAB04D1A2E62D400E77808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89EAB04B1A2E62D400E77808 /* Sears */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89EAB0481A2E62D400E77808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EAB0581A2E665C00E77808 /* Area.cpp in Sources */,
+				89EAB05B1A2E6BDE00E77808 /* Dialogue.cpp in Sources */,
+				89EAB0501A2E62D400E77808 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89EAB0511A2E62D400E77808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89EAB0521A2E62D400E77808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89EAB0541A2E62D400E77808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89EAB0551A2E62D400E77808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89EAB0471A2E62D400E77808 /* Build configuration list for PBXProject "Sears" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EAB0511A2E62D400E77808 /* Debug */,
+				89EAB0521A2E62D400E77808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EAB0531A2E62D400E77808 /* Build configuration list for PBXNativeTarget "Sears" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EAB0541A2E62D400E77808 /* Debug */,
+				89EAB0551A2E62D400E77808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89EAB0441A2E62D400E77808 /* Project object */;
+}
