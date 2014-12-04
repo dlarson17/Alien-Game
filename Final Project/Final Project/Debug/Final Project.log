@@ -1,13 +1,17 @@
-﻿Build started 12/2/2014 2:02:04 PM.
+﻿Build started 12/3/2014 2:40:27 PM.
      1>Project "C:\Users\Dane\Documents\GitHub\Alien-Game\Final Project\Final Project\Final Project.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
          Source.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dane\Documents\GitHub\Alien-Game\Final Project\Debug\Final Project.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dane\Documents\GitHub\Alien-Game\Final Project\Debug\Final Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dane\Documents\GitHub\Alien-Game\Final Project\Debug\Final Project.lib" /MACHINE:X86 Debug\Source.obj
-         Final Project.vcxproj -> C:\Users\Dane\Documents\GitHub\Alien-Game\Final Project\Debug\Final Project.exe
-     1>Done Building Project "C:\Users\Dane\Documents\GitHub\Alien-Game\Final Project\Final Project\Final Project.vcxproj" (Build target(s)).
+     1>c:\users\dane\documents\github\alien-game\final project\final project\dialogue.h(39): error C2589: 'char' : illegal token on right side of '::'
+     1>c:\users\dane\documents\github\alien-game\final project\final project\dialogue.h(39): warning C4091: '' : ignored on left of 'char' when no variable is declared
+     1>c:\users\dane\documents\github\alien-game\final project\final project\dialogue.h(39): error C2143: syntax error : missing ';' before '::'
+     1>c:\users\dane\documents\github\alien-game\final project\final project\dialogue.h(39): error C2059: syntax error : '::'
+     1>c:\users\dane\documents\github\alien-game\final project\final project\dialogue.h(39): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\dane\documents\github\alien-game\final project\final project\dialogue.h(39): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\dane\documents\github\alien-game\final project\final project\source.cpp(15): error C3867: 'Menu::menu': function call missing argument list; use '&Menu::menu' to create a pointer to member
+     1>Done Building Project "C:\Users\Dane\Documents\GitHub\Alien-Game\Final Project\Final Project\Final Project.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.27
+Time Elapsed 00:00:01.59
