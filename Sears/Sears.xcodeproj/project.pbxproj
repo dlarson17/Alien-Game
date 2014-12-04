@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		892902931A310D5200B2B1D9 /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892902921A310D5200B2B1D9 /* Item.cpp */; };
 		89EAB0501A2E62D400E77808 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89EAB04F1A2E62D400E77808 /* main.cpp */; };
 		89EAB0581A2E665C00E77808 /* Area.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89EAB0571A2E665C00E77808 /* Area.cpp */; };
 		89EAB05B1A2E6BDE00E77808 /* Dialogue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89EAB05A1A2E6BDE00E77808 /* Dialogue.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		892902911A310C7300B2B1D9 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		892902921A310D5200B2B1D9 /* Item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
 		89EAB04C1A2E62D400E77808 /* Sears */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sears; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EAB04F1A2E62D400E77808 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		89EAB0561A2E63AC00E77808 /* Area.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				89EAB04F1A2E62D400E77808 /* main.cpp */,
+				892902911A310C7300B2B1D9 /* Item.h */,
+				892902921A310D5200B2B1D9 /* Item.cpp */,
 				89EAB0561A2E63AC00E77808 /* Area.h */,
 				89EAB0571A2E665C00E77808 /* Area.cpp */,
 				89EAB0591A2E6A2600E77808 /* Dialogue.h */,
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892902931A310D5200B2B1D9 /* Item.cpp in Sources */,
 				89EAB0581A2E665C00E77808 /* Area.cpp in Sources */,
 				89EAB05B1A2E6BDE00E77808 /* Dialogue.cpp in Sources */,
 				89EAB0501A2E62D400E77808 /* main.cpp in Sources */,
@@ -244,6 +250,7 @@
 				89EAB0551A2E62D400E77808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
