@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>004FD7C0-F790-4073-95E6-4B725CE8F640</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Project Trial Run</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DAFCAC1289799E0B3CDDF11D007F20ACC7DA2431</key>
+		<string>https://github.com/dlarson17/Alien-Game.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project Trial Run/Project Trial Run.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DAFCAC1289799E0B3CDDF11D007F20ACC7DA2431</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dlarson17/Alien-Game.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DAFCAC1289799E0B3CDDF11D007F20ACC7DA2431</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DAFCAC1289799E0B3CDDF11D007F20ACC7DA2431</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alien-Game</string>
+		</dict>
+	</array>
+</dict>
+</plist>
