@@ -91,6 +91,31 @@ int main() {
                                 if (2) {
                                     //Yes
                                     //Survive
+                                    
+                                    //DialogueForkInPath();
+                                    
+                                    //LRDecision();
+                                    
+                                    if (1) {//left
+                                        //deathAlien
+                                    }
+                                    
+                                    if (2) {//right
+                                        //dialogueseehangar
+                                        //seepods
+                                        
+                                        //Choose123pods();
+                                        if (1) {
+                                            //deathbyspace();
+                                        }
+                                        if (3) {
+                                            //deathbyAlien();
+                                        }
+                                        if (2) {
+                                            //dialogueescape();
+                                            
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -101,13 +126,9 @@ int main() {
             
             break;
             
-            case '4': //Right
-            //YNThroughDoor();
+            case '4':
+            //death();
             
-            if (1) {
-                
-                
-            }
             
             
             
