@@ -28,6 +28,7 @@ int main()
 	} while (choice > '4' || choice < '1');
 	return choice;
 
+	switch (choice) {}
 	
 	
 

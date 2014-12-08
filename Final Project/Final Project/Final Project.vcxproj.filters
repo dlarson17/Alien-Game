@@ -23,5 +23,8 @@
     <ClInclude Include="Dialogue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Death.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
