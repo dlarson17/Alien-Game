@@ -24,6 +24,8 @@ public:
 	void alienFightDeath(); //2
 	void alienPodDeath(); //1
 	void alienForkLeftDeath(); //1
+	void alienCeilingDeath();
+	void alienRunNotFightDeath();
 };
 
 void Death::outerSpaceDeath() {
@@ -42,6 +44,18 @@ void Death::podExplodesDeath() {
 
 		
 }
+
+void AlienDeath::alienRunNotFightDeath(){
+	cout << "You attempt to run away firing shots as you go but alas the blaster overheats and explodes in your hand..." << endl;
+	cout << "and you unfortunately perished." << endl;
+}
+
+
+void AlienDeath::alienCeilingDeath(){
+	cout << "You go right and begin to head down the corridor and all of the sudden the ceiling crashes in as the alien crushes your spine..." << endl;
+	cout << "and you unfortunately perished." << endl;
+}
+
 
 void AlienDeath::alienDeadEndDeath(){
 	cout << "You venture down the corridor yet it leads to a dead end, so you turn around and... " << endl;
@@ -70,7 +84,7 @@ void AlienDeath::alienPodDeath(){
 }
 
 void AlienDeath::alienForkLeftDeath(){
-	cout << "You chose to go left and just as you make it half way down the corridor, the alien bursts through the wall..." << endl;
+	cout << "You chose to go right and just as you make it half way down the corridor, the alien bursts through the wall..." << endl;
 	cout << "try as you might, the alien overwhelms you and every bone in your body was broken, and unfortunately you perished." << endl;
 }
 #endif

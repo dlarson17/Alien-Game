@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClInclude Include="Death.h" />
     <ClInclude Include="Dialogue.h" />
+    <ClInclude Include="Menus.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

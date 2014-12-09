@@ -51,33 +51,36 @@ void Welcome::welcome() {
 	Sleep(1500);
 
 	cout << "You wake up in an abandoned space station and you don't remember how or why you are there. Find the bridge to figure out what happened..." << endl;
+
 }
 
 void Dialogue::firstChoiceRight() {
-	cout << "You follow the passageway and find a door. Do you enter?" << endl;
-}
-
-void Dialogue::doorOpens() {
-	cout << "You chose to open the door and you have discovered the armory. There is a functioning battle suit. Suit up soldier." << endl;
-}
-
-void Dialogue::dontOpenDoor() {
-	cout << "You turn around and head back to where you started." << endl;
+	string choice;
+	cout << "You follow the passageway and find a door. Do you enter? Yes or No" << endl;
+	getline(cin, choice);
 }
 void Dialogue::findBlaster() {
+	string choice;
 	cout << "As you wonder down the corridor, you find a fallen comrade and it appears the blaster is still in working condition." << endl;
 	cout << "Do you pick it up?" << endl;
+	getline(cin, choice);
 }
 void Dialogue::yesBlaster() {
+	string choice;
 	cout << "You picked up the blaster and continue your search. Rounding the next corner you find yourself face to face with the alien!" << endl;
 	cout << "What do you do?" << endl;
+	getline(cin, choice);
 }
 void Dialogue::noBlaster() {
+	string choice;
 	cout << "You paid your respects and continue your search, where you come to an intersection." << endl;
 	cout << "There is a power lift to your left and another corridor further to your right. Where will you go?" << endl;
+	getline(cin, choice);
 }
 void Dialogue::goRightPairedWithPowerLift() {
+	string choice;
 	cout << "Further down this pathway is a door which you procede to open..." << endl;
+	getline(cin, choice);
 }
 void Dialogue::powerLift() {
 	cout << "You enter the power lift and discover there is still power. You begin your ascent to the bridge and to answers..." << endl;
@@ -101,18 +104,25 @@ void Dialogue::explanation(){
 }
 
 void Dialogue::newObjective(){
-	cout << "There are two ways to head to the hanger bay, the lift or the door on the far side. Which do you choose?" << endl;
+	string choice;
+	cout << "There are two ways to head to the hangar bay, the lift or the door on the far side. Which do you choose?" << endl; 
+	getline(cin, choice);
 }
 void Dialogue::doorOnFarSide(){
+	string choice;
 	cout << "You walk to the door and open it to find the alien standing at the end of the hallway. What do you do?" << endl;
+	getline(cin, choice);
 }
 void Dialogue::forkInPath(){
+	string choice;
 	cout << "You chose to retreat and try your luck at finding the escape pods before the alien gets you. You reach a fork in the path." << endl;
-
+	cout << "Which way?" << endl;
+	getline(cin, choice);
 }
 void Dialogue::soldier(){
+	string choice;
 	cout << "You are running down the corridor and spot movement. A fellow soldier, STILL ALIVE. He is badly injured, but alive. What do you do?" << endl;
-
+	getline(cin, choice);
 }
 void Dialogue::soldierTwo(){
 	cout << "You bring the soldier with you but your speed is greatly decreased. The alien approaches rapidly..." << endl;
@@ -123,9 +133,13 @@ void Dialogue::soldierTwo(){
 
 }
 void Dialogue::forkInPathTwo(){
+	string choice;
 	cout << "You reach another fork in the pathway which way to you go?" << endl;
+	getline(cin, choice);
 }
 void Dialogue::rightFork(){
-	cout << "You went right and found the hanger bay! There are three escapes, which one do you take?" << endl;
+	string choice;
+	cout << "You went right and found the hangar bay! There are three escapes, which one do you take?" << endl;
+	getline(cin, choice);
 }
 #endif
