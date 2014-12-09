@@ -32,6 +32,14 @@ public:
 	void goRightPairedWithPowerLift();
 	void powerLift();
 	void explanation();
+	void newObjective();
+	void doorOnFarSide();
+	void forkInPath();
+	void soldier();
+	void soldierTwo();
+	void forkInPathTwo();
+	void rightFork();
+
 };
 
 void Welcome::welcome() {
@@ -89,7 +97,35 @@ void Dialogue::explanation(){
 	Sleep(1200);
 	cout << "You do some more searching and discover that the timer was started and you only 10 minutes to get off the ship." << endl;
 	cout << "New Objective: Find the escape pods to get off the station before it explodes.." << endl;
-
+	
 }
 
+void Dialogue::newObjective(){
+	cout << "There are two ways to head to the hanger bay, the lift or the door on the far side. Which do you choose?" << endl;
+}
+void Dialogue::doorOnFarSide(){
+	cout << "You walk to the door and open it to find the alien standing at the end of the hallway. What do you do?" << endl;
+}
+void Dialogue::forkInPath(){
+	cout << "You chose to retreat and try your luck at finding the escape pods before the alien gets you. You reach a fork in the path." << endl;
+
+}
+void Dialogue::soldier(){
+	cout << "You are running down the corridor and spot movement. A fellow soldier, STILL ALIVE. He is badly injured, but alive. What do you do?" << endl;
+
+}
+void Dialogue::soldierTwo(){
+	cout << "You bring the soldier with you but your speed is greatly decreased. The alien approaches rapidly..." << endl;
+	cout << "He gestures to his holster, Weapon 726, he never got it to you and in a last ditch effort you fire directly at the alien... " << endl;
+
+	Sleep(1700);
+	cout << "The alien gets blasted back and retreats! You stopped him for now..." << endl;
+
+}
+void Dialogue::forkInPathTwo(){
+	cout << "You reach another fork in the pathway which way to you go?" << endl;
+}
+void Dialogue::rightFork(){
+	cout << "You went right and found the hanger bay! There are three escapes, which one do you take?" << endl;
+}
 #endif

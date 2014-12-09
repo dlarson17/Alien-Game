@@ -43,11 +43,11 @@ void Death::podExplodesDeath() {
 		
 }
 
-void AlienDeath::alienDeadEndDeath{
-	cout << "You venture down the corridor and discover it is a dead end. You turn around and feel a searing pain..." << endl;
-	cout << "your entrails have been ripped out of you by the alien and you unfortunately perished." << endl;
+void AlienDeath::alienDeadEndDeath(){
+	cout << "You venture down the corridor yet it leads to a dead end, so you turn around and... " << endl;
+	cout << "you feel a searing pain as your entrails are ripped from your body and you unfortunately perished." << endl;
 }
-
+	
 void AlienDeath::alienStayPutDeath(){
 	cout << "You chose to stay put and out of no where, the alien drops from the ceiling snapping your spine..." << endl;
 	cout << "and unfortunately you perished." << endl;
