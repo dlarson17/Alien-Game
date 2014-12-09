@@ -44,9 +44,11 @@ int main() {
                 if (1) {
                     //deathAlien();
                 }
-                else
+                if (2) {
                     //deathAlien();
-            }
+                }
+                
+            
             
             if (2) {
                 //dialogueLift();
@@ -138,4 +140,5 @@ int main() {
     }
     
    
+    }
 }
